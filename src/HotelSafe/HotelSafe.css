@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hotel-safe-container {
+    background: #293F55;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+.hotel-safe__keypad-container {
+    /* width: calc(40% - 15px); */
+    padding: 10px 20px;
+}
+
+.hotel-safe__keypad {
+    border-style: solid;
+    background: #666666;
+    padding: 10px;
+}
+
+.hotel-safe__keypad-button {
+    display: inline-block;
+    width: calc(33.33% - 2px);
+    margin: 1px;
+}
+
+.hotel-safe__keypad-press {
+    width: 100%;
+    height:40px;
+}
+
+.hotel-safe__screen-container {
+    padding: 10px 20px;
+}
+
+.hotel-safe__screen {
+    height: 100px;
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px;
+    margin: 0 60px;
+    background: #9DA08B;
+}
+
+.hotel-safe__screen-content{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hotel-safe__light-container {
+    padding: 10px 20px;
+}
+
+.hotel-safe__light {
+    background: #008100;
+    width: 45px;
+    height: 45px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.hotel-safe__light--red {
+    background: #f00;
+}
+
+@media screen and (max-width: 600px) {
+    .hotel-safe__screen {
+        margin: 0 0;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .hotel-safe-container {
+        float: left;
+    }
+    .hotel-safe-control-container {
+         width: 30%; 
+        /*display: inline-block; */
+        float: left;
+    }
+    
+    .hotel-safe-display-container {
+        width: 70%;
+        /*display: inline-block; */
+        float: left;
+    }
+    
+}
