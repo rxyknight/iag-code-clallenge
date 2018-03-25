@@ -1,7 +1,5 @@
 # Roy-Ren-Challenge-IAG
 
-## Purpose of this project
-### This project is for coding test required by interview of IAG company.
 
 ## How to run this project
 
@@ -20,5 +18,5 @@
 
 ![alt text](./responsive-phone.PNG)
 
-### If there are any issues, not server side :) which get you stuck to review my code, please send me email via renxiangyu16@hotmail.com or call me via 0420652028.
+
 
